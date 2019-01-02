@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XF.AnimatedBackgrounds"
+             x:Class="XF.AnimatedBackgrounds.MainPage">
+
+    <ContentPage.Resources>
+        <Color x:Key="Color500">#2196F3</Color>
+        <Color x:Key="Color600">#1E88E5</Color>
+        <Color x:Key="Color700">#1976D2</Color>
+        <Color x:Key="Color800">#1565C0</Color>
+        <Color x:Key="Color900">#0D47A1</Color>
+    </ContentPage.Resources>
+
+    <Grid x:Name="LayoutRoot" BackgroundColor="{StaticResource Color900}">
+        <BoxView x:Name="BackgroundLayer1" BackgroundColor="{StaticResource Color800}" />
+        <BoxView x:Name="BackgroundLayer2" BackgroundColor="{StaticResource Color700}" />
+        <BoxView x:Name="BackgroundLayer3" BackgroundColor="{StaticResource Color600}" />
+        <BoxView x:Name="BackgroundLayer4" BackgroundColor="{StaticResource Color500}" />
+    </Grid>
+
+</ContentPage>
